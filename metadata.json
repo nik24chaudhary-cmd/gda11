@@ -1,0 +1,8 @@
+{
+  "name": "Remix: Global Design Arena",
+  "description": "A luxury furniture portfolio website for Global Design Arena centering on a soft cream aesthetic, elegant typography, minimalist design, interactive custom product configuration, and bespoke personal consultation scheduling.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

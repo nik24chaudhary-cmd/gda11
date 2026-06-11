@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-cream: #FBF9F6;
+  --color-brand-sand: #F5EFEB;
+  --color-brand-clay: #E3DCD5;
+  --color-brand-charcoal: #1C1A19;
+  --color-brand-bronze: #8E7A5F;
+  --color-brand-sage: #8A9A86;
+  --color-brand-terracotta: #B97A60;
+  
+  --animate-fade-in-up: fade-in-up 1s ease-out forwards;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Custom scrollbar matching high-end design */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FBF9F6;
+}
+::-webkit-scrollbar-thumb {
+  background: #E3DCD5;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #8E7A5F;
+}
+
+body {
+  background-color: #FBF9F6;
+  color: #1C1A19;
+  font-family: var(--font-sans);
+}
+
